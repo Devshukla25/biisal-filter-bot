@@ -22,7 +22,7 @@ USERNAME = environ.get('USERNAME', "@JAYxMAHAKAAL")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002200863716'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movies_search7')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190937021').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Arpit:Arpit@cluster0.kguuozl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://7shuklashivam13:GsWMTxN5gigTMy89@cluster0.yfhuqfo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
@@ -56,7 +56,7 @@ PREMIUM_POINT = 1500
 auth_channel = environ.get('AUTH_CHANNEL', '-1002025346422')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001734959916'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1001734959916')
+request_channel = environ.get('REQUEST_CHANNEL', '-1002025346422')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002200863716'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002025346422'))
